@@ -1,11 +1,173 @@
 <!DOCTYPE html>
 <html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LKM LORD ENERGI — Discovery Learning</title>
 <style>
-:root{--n:#101a3b;--n2:#202b5b;--c:#35dfe0;--b:#477cf4;--p:#9060f5;--ink:#202947;--m:#5d6886;--l:#d6def0;--pale:#f3f6ff}*{box-sizing:border-box}body{margin:0;background:#e9edf8;color:var(--ink);font:16px/1.55 Arial,sans-serif}.page{max-width:960px;margin:24px auto;padding:0 14px 30px}.hero{background:linear-gradient(125deg,var(--n),var(--n2));color:white;padding:28px;border-radius:18px}.eyebrow{color:var(--c);font-size:.78rem;font-weight:bold;letter-spacing:.12em}.hero h1{font-size:clamp(1.8rem,5vw,2.7rem);margin:8px 0}.hero p{color:#e1e8ff;margin-bottom:0}.steps{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.step{flex:1;min-width:130px;background:white;border:1px solid var(--l);border-radius:9px;padding:10px;font-weight:bold;font-size:.88rem}.step b{display:inline-grid;place-items:center;background:var(--n);color:white;width:25px;height:25px;border-radius:50%;margin-right:5px}.card{background:white;border:1px solid var(--l);border-radius:14px;padding:22px;margin:16px 0}.title{display:flex;align-items:center;gap:10px;color:var(--n);font-size:1.25rem;margin:0 0 8px}.title span{display:grid;place-items:center;min-width:35px;height:35px;border-radius:9px;background:linear-gradient(135deg,var(--c),#9bd7ff)}.muted{color:var(--m)}.small{font-size:.85rem}.grid,.phenomena,.members{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{margin:10px 0}.field label{display:block;font-size:.88rem;font-weight:bold;margin-bottom:5px}.field input,.field textarea{width:100%;padding:10px;border:1px solid #cbd5eb;border-radius:7px;font:inherit}.field textarea{min-height:70px}.member{background:var(--pale);padding:9px;border-radius:8px}.required{color:#c33}.optional{font-weight:normal;color:var(--m)}.phen{border:1px solid var(--l);border-radius:10px;overflow:hidden;background:#fbfcff}.art{height:110px;background:linear-gradient(#dfeaff,#f8fbff);display:grid;place-items:center}.art svg{width:100%;height:100%}.phen div:last-child{padding:12px}.phen h3{font-size:1rem;margin:0}.phen p{margin:4px 0}.note,.q{padding:12px;border-radius:8px;margin:10px 0}.note{background:#f7f4ff;border-left:4px solid var(--p)}.q{border:1px solid var(--l);background:#fbfcff}.q p{font-weight:bold;margin:0 0 8px}.q textarea{width:100%;min-height:55px;padding:9px;border:1px solid #cbd5eb;border-radius:7px;font:inherit}.choice{display:block;margin:7px 0;font-weight:normal}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.9rem}th,td{border:1px solid var(--l);padding:8px;text-align:center}th{background:#edf2ff;color:var(--n)}td input{width:100%;min-width:55px;padding:6px;border:1px solid #d3dced;border-radius:5px;text-align:center;font:inherit}.formula{display:flex;gap:12px;flex-wrap:wrap}.formula div{flex:1;min-width:190px;background:var(--n);color:white;padding:16px;text-align:center;border-radius:10px}.formula strong{display:block;color:var(--c);font-size:1.2rem}.btns{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.btn{border:0;border-radius:25px;padding:11px 16px;font-weight:bold;cursor:pointer;background:linear-gradient(120deg,var(--c),#91caff);color:var(--n)}.btn.alt{background:white;border:1px solid #b8c7e8}.status{color:#16845c;min-height:1.4em}.footer{text-align:center;color:var(--m);font-size:.82rem;padding:10px}@media(max-width:600px){.grid,.phenomena,.members{grid-template-columns:1fr}.card{padding:15px}table{font-size:.78rem}th,td{padding:5px}}@media print{body{background:white}.page{margin:0;padding:0}.hero{border-radius:0;print-color-adjust:exact}.card{break-inside:avoid;box-shadow:none}.btns,.steps{display:none}.field input,.field textarea{border:0;border-bottom:1px solid #aaa}.art{height:85px}}
+:root{--n:#082653;--n2:#124783;--c:#ffd447;--b:#2467b2;--p:#e8b923;--ink:#172b48;--m:#536985;--l:#c8d7e8;--pale:#f2f7fc}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eaf2fb 0%,#fff 48%,#f3f7fc 100%);color:var(--ink);font:16px/1.55 Arial,sans-serif}.page{max-width:960px;margin:24px auto;padding:0 14px 30px}.hero{background:linear-gradient(125deg,#061a38 0%,#0b3569 58%,#18569a 100%);color:white;padding:28px;border-radius:18px;border-bottom:6px solid #ffd447;box-shadow:0 12px 28px #08265330}.eyebrow{color:#ffd447;font-size:.78rem;font-weight:bold;letter-spacing:.12em}.hero h1{font-size:clamp(1.8rem,5vw,2.7rem);margin:8px 0}.hero p{color:#e1e8ff;margin-bottom:0}.steps{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.step{flex:1;min-width:130px;background:linear-gradient(135deg,#fff,#f1f6fc);border:1px solid #bfd0e4;border-bottom:3px solid #ffd447;border-radius:10px;padding:10px;font-weight:bold;font-size:.88rem;box-shadow:0 3px 9px #0826530d}.step b{display:inline-grid;place-items:center;background:linear-gradient(135deg,#082653,#18569a);color:#ffd447;width:25px;height:25px;border-radius:50%;margin-right:5px}.card{background:linear-gradient(145deg,#fff 0%,#fbfdff 100%);border:1px solid #c8d7e8;border-top:4px solid #124783;border-radius:14px;padding:22px;margin:16px 0;box-shadow:0 6px 18px #08265310}.title{display:flex;align-items:center;gap:10px;color:#082653;font-size:1.25rem;margin:0 0 8px;padding-bottom:8px;border-bottom:1px solid #e1e9f3}.title span{display:grid;place-items:center;min-width:35px;height:35px;border-radius:9px;background:linear-gradient(135deg,#ffd447,#fff0a6);color:#082653;box-shadow:0 3px 8px #d9ac2638}.muted{color:var(--m)}.small{font-size:.85rem}.grid,.phenomena,.members{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{margin:10px 0}.field label{display:block;font-size:.88rem;font-weight:bold;margin-bottom:5px}.field input,.field textarea{width:100%;padding:10px;border:1px solid #cbd5eb;border-radius:7px;font:inherit}.field textarea{min-height:70px}.member{background:linear-gradient(135deg,#f4f8fd,#eaf2fb);padding:9px;border-radius:8px;border:1px solid #d3e0ef;border-left:3px solid #ffd447}.required{color:#c33}.optional{font-weight:normal;color:var(--m)}.phen{border:1px solid #c8d7e8;border-radius:10px;overflow:hidden;background:#fff;box-shadow:0 4px 12px #0826530d}.art{height:110px;background:linear-gradient(135deg,#dce9f8,#fff8d8);display:grid;place-items:center;border-bottom:2px solid #ffd447}.art svg{width:100%;height:100%}.phen div:last-child{padding:12px}.phen h3{font-size:1rem;margin:0}.phen p{margin:4px 0}.note,.q{padding:12px;border-radius:8px;margin:10px 0}.note{background:linear-gradient(100deg,#fff7d1,#f4f8fd);border-left:5px solid #e8b923;color:#17385f}.q{border:1px solid #cfdeee;border-left:4px solid #e8bd31;background:linear-gradient(120deg,#fff,#f6f9fd);box-shadow:0 2px 7px #08265308}.q p{font-weight:bold;margin:0 0 8px}.q textarea{width:100%;min-height:55px;padding:9px;border:1px solid #cbd5eb;border-radius:7px;font:inherit}.choice{display:block;margin:7px 0;font-weight:normal}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.9rem}th,td{border:1px solid var(--l);padding:8px;text-align:center}th{background:linear-gradient(120deg,#082653,#124783);color:#fff4bd}td input{width:100%;min-width:55px;padding:6px;border:1px solid #d3dced;border-radius:5px;text-align:center;font:inherit}.formula{display:flex;gap:12px;flex-wrap:wrap}.formula div{flex:1;min-width:190px;background:linear-gradient(135deg,#082653,#124783);color:white;padding:16px;text-align:center;border-radius:10px;border-bottom:4px solid #ffd447;box-shadow:0 5px 12px #08265324}.formula strong{display:block;color:#ffd447;font-size:1.2rem}.btns{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.btn{border:0;border-radius:25px;padding:11px 16px;font-weight:bold;cursor:pointer;background:linear-gradient(120deg,#ffd447,#ffe995);color:#082653;box-shadow:0 4px 10px #d5a92335}.btn:hover{filter:brightness(.97);transform:translateY(-1px)}.btn.alt{background:#fff;border:1px solid #9eb8d4;color:#082653}.status{color:#126443;min-height:1.4em;background:#f0f8f3;border-radius:8px;padding:4px 8px}.footer{text-align:center;color:#536985;font-size:.82rem;padding:14px;border-top:2px solid #ffd447;background:#f5f8fc;border-radius:10px}@media(max-width:600px){.grid,.phenomena,.members{grid-template-columns:1fr}.card{padding:15px}table{font-size:.78rem}th,td{padding:5px}}@media print{body{background:white;color:#172b48}.page{margin:0;padding:0}.hero{border-radius:0;print-color-adjust:exact}.card{break-inside:avoid;box-shadow:none}.btns,.steps{display:none}.field input,.field textarea{border:0;border-bottom:1px solid #aaa}.art{height:85px}}
+
+/* === Polesan visual: selaras dengan LKM pertama === */
+:root{
+  --n:#073b78; --n2:#0878cf; --c:#ffd447; --b:#1686d9;
+  --p:#f4c430; --ink:#10345d; --m:#536985; --l:#b8d9f2; --pale:#eef8ff;
+}
+body{
+  background:
+    radial-gradient(circle at 8% 3%,rgba(255,212,71,.18),transparent 22rem),
+    linear-gradient(180deg,#dff2ff 0%,#f7fbff 38%,#edf6ff 100%);
+  color:var(--ink);
+}
+.page{
+  max-width:1000px;
+  margin:24px auto;
+  padding:0 16px 34px;
+}
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(130deg,#06336b 0%,#075eaa 58%,#1289d5 100%);
+  color:#fff;
+  padding:30px 28px;
+  border:2px solid rgba(255,255,255,.65);
+  border-bottom:7px solid var(--c);
+  border-radius:22px;
+  box-shadow:0 12px 30px rgba(7,59,120,.22);
+}
+.hero:after{
+  content:"⚡";
+  position:absolute;
+  right:22px; top:8px;
+  font-size:clamp(4rem,10vw,7rem);
+  line-height:1;
+  opacity:.13;
+  transform:rotate(10deg);
+  pointer-events:none;
+}
+.eyebrow{
+  display:inline-block;
+  color:#082653;
+  background:var(--c);
+  padding:5px 11px;
+  border-radius:999px;
+  font-size:.76rem;
+  font-weight:900;
+  letter-spacing:.12em;
+}
+.hero h1{
+  position:relative;
+  z-index:1;
+  font-size:clamp(2rem,5vw,3.1rem);
+  letter-spacing:.015em;
+  text-shadow:0 2px 0 rgba(0,0,0,.08);
+}
+.hero p{max-width:760px;color:#edf7ff}
+.steps{gap:10px;margin:16px 0 20px}
+.step{
+  background:linear-gradient(145deg,#fff 0%,#f0f8ff 100%);
+  border:1.5px solid #b8d9f2;
+  border-bottom:4px solid var(--c);
+  border-radius:13px;
+  padding:12px;
+  box-shadow:0 5px 12px rgba(7,59,120,.08);
+  color:#10345d;
+}
+.step b{
+  background:linear-gradient(135deg,#073b78,#1289d5);
+  color:#ffd447;
+  box-shadow:0 3px 8px rgba(7,59,120,.2);
+}
+.card{
+  position:relative;
+  border:1.5px solid #c4dff3;
+  border-top:5px solid #0878cf;
+  border-radius:17px;
+  padding:22px;
+  margin:18px 0;
+  background:linear-gradient(145deg,#fff 0%,#fbfdff 100%);
+  box-shadow:0 7px 22px rgba(7,59,120,.09);
+}
+.title{
+  color:#073b78;
+  font-weight:900;
+  font-size:1.24rem;
+  padding-bottom:11px;
+  margin-bottom:14px;
+  border-bottom:2px solid #e3f1fc;
+}
+.title span{
+  min-width:39px;height:39px;
+  border-radius:11px;
+  background:linear-gradient(135deg,#ffd447,#fff0a6);
+  color:#073b78;
+  box-shadow:0 4px 10px rgba(217,172,38,.22);
+}
+input[type=text],input[type=number],input[type=date],textarea,select{
+  border:1.6px solid #a9d2f1;
+  border-radius:10px;
+  background:#fff;
+  color:#10345d;
+  box-shadow:inset 0 1px 2px rgba(7,59,120,.03);
+}
+input:focus,textarea:focus,select:focus{
+  outline:3px solid rgba(255,212,71,.5);
+  border-color:#0878cf;
+}
+button{
+  border:0;
+  border-radius:11px;
+  background:linear-gradient(135deg,#073b78,#0878cf);
+  color:white;
+  font-weight:800;
+  box-shadow:0 4px 10px rgba(7,59,120,.16);
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+button:hover{transform:translateY(-1px);box-shadow:0 7px 15px rgba(7,59,120,.2)}
+button.light{
+  background:#fff;
+  color:#073b78;
+  border:1.5px solid #a9d2f1;
+}
+table{
+  border-collapse:separate;
+  border-spacing:0;
+  overflow:hidden;
+  border-radius:11px;
+}
+th{
+  background:#073b78;
+  color:#fff;
+}
+td,th{padding:10px;border-color:#c9e1f4}
+tr:nth-child(even) td{background:#f2f9ff}
+.muted{color:#536985}
+.small{line-height:1.5}
+.grid>*,.phenomena>*,.members>*{
+  border-radius:13px;
+}
+@media(max-width:640px){
+  .page{padding:0 9px 22px;margin:12px auto}
+  .hero{padding:23px 18px;border-radius:17px}
+  .card{padding:16px;border-radius:14px}
+  .title{font-size:1.1rem}
+}
+@media print{
+  body{background:#fff!important}
+  .page{max-width:none;margin:0;padding:0 0 10px}
+  .hero,.card,.step{box-shadow:none!important}
+  .hero{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .title span,.step b,th{ -webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+
 </style></head><body><main class="page">
 <header class="hero"><div class="eyebrow">LEMBAR KERJA MURID • IPA SMP KELAS VIII</div><h1>⚡ LORD ENERGI</h1><h2 style="margin:0;font-size:1.1rem">Misi Menyelamatkan Energy Core</h2><p>Materi Energi Potensial dan Energi Kinetik. Amati fenomena, kumpulkan data, olah hasil penyelidikan, dan temukan rahasia energi!</p></header>
 <div class="steps"><div class="step"><b>1</b> Stimulus</div><div class="step"><b>2</b> Identifikasi Masalah</div><div class="step"><b>3</b> Pengumpulan Data</div><div class="step"><b>4</b> Pengolahan Data</div><div class="step"><b>5</b> Verifikasi</div><div class="step"><b>6</b> Kesimpulan</div></div>
 <section class="card"><h2 class="title"><span>A</span> Identitas Kelompok</h2><p class="muted small">Nama anggota 1–3 wajib diisi; anggota 4–6 opsional.</p><div class="grid"><div class="field"><label>Nama Kelompok <i class="required">*</i></label><input id="nama" required placeholder="Nama kelompok"></div><div class="field"><label>Kelas <i class="required">*</i></label><input id="kelas" required placeholder="Contoh: VIII-A"></div></div><h3>Anggota Kelompok</h3><div class="members"><div class="member field"><label>Anggota 1 <i class="required">*</i></label><input id="a1" required placeholder="Nama lengkap"></div><div class="member field"><label>Anggota 2 <i class="required">*</i></label><input id="a2" required placeholder="Nama lengkap"></div><div class="member field"><label>Anggota 3 <i class="required">*</i></label><input id="a3" required placeholder="Nama lengkap"></div><div class="member field"><label>Anggota 4 <i class="optional">(opsional)</i></label><input id="a4" placeholder="Boleh dikosongkan"></div><div class="member field"><label>Anggota 5 <i class="optional">(opsional)</i></label><input id="a5" placeholder="Boleh dikosongkan"></div><div class="member field"><label>Anggota 6 <i class="optional">(opsional)</i></label><input id="a6" placeholder="Boleh dikosongkan"></div></div></section>
+<section class="card learning-goals">
+<h2 class="title"><span>🎯</span> Tujuan Pembelajaran</h2>
+<p class="goal-intro">Setelah menyelesaikan misi LORD ENERGI, kalian diharapkan mampu:</p>
+<ol>
+<li>Menjelaskan konsep energi kinetik dan energi potensial.</li>
+<li>Mengidentifikasi faktor-faktor yang memengaruhi besar energi kinetik dan energi potensial.</li>
+<li>Menghitung besar energi kinetik dan energi potensial berdasarkan massa, kecepatan, dan ketinggian benda.</li>
+</ol>
+</section>
 <section class="card"><h2 class="title"><span>1</span> Stimulus — Misteri Energy Core</h2><p>Amati empat fenomena berikut. Jangan langsung mencari rumus. Diskusikan apa yang kalian lihat dan tuliskan dugaan awal.</p>
 <div class="phenomena">
 <article class="phen"><div class="art"><svg viewBox="0 0 300 110" aria-label="Bola di tempat tinggi"><path d="M20 100 L110 18 L150 100" fill="none" stroke="#8294c5" stroke-width="5"/><path d="M10 102 H290" stroke="#6b7ca8" stroke-width="3"/><circle cx="110" cy="18" r="12" fill="#35dfe0" stroke="#2478c8" stroke-width="3"/><text x="145" y="25" fill="#25345d" font-size="13">Bola diam</text></svg></div><div><h3>Fenomena 1 — Bola di tempat tinggi</h3><p class="small muted">Bola diam berada di puncak lintasan.</p></div></article>
